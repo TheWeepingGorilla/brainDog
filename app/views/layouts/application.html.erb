@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="brainDog">
+<head>
+  <title>Braindog</title>
+  <%= stylesheet_link_tag  'application' %>
+  <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.js", 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
